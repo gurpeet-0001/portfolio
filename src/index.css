@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Passion+One:wght@400;700;900&display=swap');
+@import "tailwindcss";
+
+:root {
+  --hero-font: 'Hubot Sans', 'Segoe UI', Arial, sans-serif;
+}
+
+.hero-title,
+.hero-text {
+  font-family: var(--hero-font);
+}

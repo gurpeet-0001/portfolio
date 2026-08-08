@@ -1,8 +1,11 @@
 import React from 'react'
+import Hero from './components/hero'
 
 function App() {
   return (
-    <div>GURPREET SANDHU IS COMMING SOON</div>
+    <div>
+      <Hero/>
+    </div>
   )
 }
 
