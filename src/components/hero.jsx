@@ -1,6 +1,6 @@
 
 import React from 'react'
-import image from '/pic.PNG'
+import pic2 from '../images/pic2.png'
 
 function Hero() {
   return (
@@ -24,7 +24,7 @@ function Hero() {
       {/* Image */}
       <div className="w-full lg:w-1/2 flex justify-center">
         <img
-          src={image}
+          src={pic2}
           alt="Gurpreet"
           className="w-auto h-[22rem] sm:h-[28rem] md:h-[32rem] lg:h-[38rem] xl:h-[42rem] object-cover "
         />
