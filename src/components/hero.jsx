@@ -5,7 +5,7 @@ import pic2 from '../images/pic2.png'
 function Hero() {
   return (
     <section className="min-h-screen bg-[#040616] text-white flex flex-col-reverse lg:flex-row items-center justify-center gap-10 px-6 py-12 sm:px-10 lg:px-16">
-      
+
       {/* Text */}
       <div className="w-full lg:w-1/2 text-center lg:text-left">
         <p className="text-lg sm:text-xl lg:text-2xl mb-3">
@@ -16,9 +16,13 @@ function Hero() {
           A passionate fullstack web developer
         </h1>
 
-        <p className="mt-5 text-base sm:text-lg lg:text-xl text-gray-600 max-w-xl mx-auto lg:mx-0">
+        <p className="mt-5 text-base sm:text-lg lg:text-xl text-gray-400 max-w-xl mx-auto lg:mx-0">
           With a strong foundation in both frontend and backend technologies.
         </p>
+
+        <p className="mt-5 italic underline text-base sm:text-s lg:text-md text-gray-700 max-w-xl mx-auto lg:mx-0">
+          NOTE: Currently building my portfolio. New projects and case studies will be added soon.</p>
+          
       </div>
 
       {/* Image */}
