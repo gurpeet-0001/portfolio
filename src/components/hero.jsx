@@ -30,7 +30,7 @@ function Hero() {
         <img
           src={pic2}
           alt="Gurpreet"
-          className="w-auto h-[22rem] sm:h-[28rem] md:h-[32rem] lg:h-[38rem] xl:h-[42rem] object-cover "
+          className="w-auto h-[18rem] sm:h-[28rem] md:h-[32rem] lg:w-full lg:h-full object-cover"
         />
       </div>
 
