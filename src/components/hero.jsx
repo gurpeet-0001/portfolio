@@ -1,6 +1,6 @@
 
 import React from 'react'
-import pic2 from '../images/pic2.png'
+import pic2 from '../images/pic3.png'
 
 function Hero() {
   return (
